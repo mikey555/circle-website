@@ -1,0 +1,128 @@
+/*@font-face{ 
+	font-family: 'FuturaOblique';
+	src: url('../fonts/FuturaOblique/futura_oblique-webfont.eot');
+	src: url('../fonts/FuturaOblique/futura_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/FuturaOblique/futura_oblique-webfont.woff') format('woff'),
+	     url('../fonts/FuturaOblique/futura_oblique-webfont.ttf') format('truetype'),
+	     url('../fonts/FuturaOblique/futura_oblique-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'bodonixtregular';
+    src: url('../fonts/bodonixt_regular_macroman/BodoniXT-webfont.eot');
+    src: url('../fonts/bodonixt_regular_macroman/BodoniXT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bodonixt_regular_macroman/BodoniXT-webfont.woff') format('woff'),
+         url('../fonts/bodonixt_regular_macroman/BodoniXT-webfont.ttf') format('truetype'),
+         url('../fonts/bodonixt_regular_macroman/BodoniXT-webfont.svg#bodonixtregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+
+body {
+	background: black;
+	font-family:'futura_oblique';
+	font-size:20px;
+	color:rgba(255,255,255,.7);
+	
+	}
+	
+h1, h2 {
+	font-family:'bodonixtregular';
+	}
+	
+header {
+	width:659px;
+	margin:0 auto;
+	text-align:center;
+	}
+	
+.wrapper {
+	width:1321px;
+	margin:0 auto;
+	overflow:auto;
+	}
+
+
+	
+.center-column {
+	width:50%;
+	float:left;
+	}
+	
+nav {
+	width:100%;
+	margin:50px auto 0 auto;
+	text-align:center;
+	}
+	
+
+	
+text {
+	fill:white;
+	fill-opacity:0.5;
+	}
+	
+nav svg text {
+	text-anchor:middle;	
+	}
+	
+.purple {
+	fill:#662d91;
+	}
+	
+.green {
+	fill:#006837;
+	}
+
+.red {
+	fill:#ff0000;
+	}
+
+.blue {
+	fill:#29abe2;
+	}
+
+.yellow {
+	fill:#fcee21;
+	}
+
+.nav-bubble {
+	fill-opacity: 0.25;
+	}
+	
+
+	
+/* left navigation */	
+.left-column {
+	width:25%;
+	float:left;
+	}
+	
+.left-nav-content {
+	width:50%;
+	float:left;
+	}
+	
+#left-nav-slider{
+	width:50%;
+	float:right;
+	text-align:center;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+footer {
+	
+	
+	clear:both;
+	text-align:center;
+	}
